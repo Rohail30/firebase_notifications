@@ -5,12 +5,12 @@ importScripts("https://www.gstatic.com/firebasejs/9.23.0/firebase-messaging-comp
 
 // Same config as in src/firebase.js
 firebase.initializeApp({
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
+  apiKey: "AIzaSyBjtbev_NpEu4utv8eCXLgwYhb8VLjb2_g",
+  authDomain: "fir-notifications-fb2a2.firebaseapp.com",
+  projectId: "fir-notifications-fb2a2",
+  storageBucket: "fir-notifications-fb2a2.firebasestorage.app",
+  messagingSenderId: "767825558648",
+  appId: "1:767825558648:web:c9e3c873ffeeb0cce4018d",
 });
 
 const messaging = firebase.messaging();

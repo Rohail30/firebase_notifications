@@ -25,7 +25,7 @@ export const requestNotificationPermission = async () => {
   }
 
   // VAPID key from Firebase console → Cloud Messaging → Web push certificates
-  const vapidKey = "YOUR_WEB_PUSH_CERTIFICATE_KEY_PAIR";
+  const vapidKey = "BDOKa3tOb5_2M1_H353F5qZ6fuDP7GVQvgYSlpRjayBQ12bSIj3sBSEOExQwXjhUGcs5FT-P0cn3WjVFNMIFXJg";
 
   const token = await getToken(messaging, { vapidKey });
   console.log("FCM token:", token);
